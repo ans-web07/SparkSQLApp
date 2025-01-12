@@ -1,0 +1,3 @@
+25/01/12 17:57:03 INFO Hello SparkSQL App: Survey_df result after reading .csv file
+25/01/12 17:57:04 INFO Hello SparkSQL App: Survey_tbl created via dataframe
+25/01/12 17:57:04 INFO Hello SparkSQL App:  Executing SQL expression only on survey_tbl
