@@ -32,7 +32,7 @@ if __name__ == "__main__":
     survey_df.createOrReplaceTempView("survey_tbl")
     logger.info("Survey_tbl created via dataframe")
 
-    # Executing SQL expression only on a table/view
+    # Executing SQL expression only on a table/view and getting o/p
     logger.info(" Executing SQL expression only on survey_tbl")
     count_df = spark.sql("select Country,count(1) as count from survey_tbl where Age<40 group by country")
     count_df.show()
